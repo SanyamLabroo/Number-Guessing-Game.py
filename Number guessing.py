@@ -52,13 +52,7 @@ while True:
     
     guessesTaken = guessesTaken + 1         #For adding the guesses as guess is taken
 
-    #If conditions for checking whether the guess is correct or not
-
-    if guess != x:                     
-
-        x = str(x)
-        print("Nope.That's the wrong number...Try again!")
-
+    #If  else conditions for checking whether the guess is correct or not
 
     if x == guess:
         
@@ -69,6 +63,9 @@ while True:
         print("Thanks for playing.")
         time.sleep(2)
         break
+	
+    else:
+        print("OOPS! Wrong guess..Try again.")
 
     #If condition for checking if the maximum number of guesses are taken
     
