@@ -33,7 +33,7 @@ myName = input("\nHello! What's your name: ")
 #Assigning a variable for selecting a random number between 1 to 20
 x = random.randint(1,20)
 
-print('Well ' + myName + ', I have choosen a number between 1 and 20.\nNow You have to guess it.',x)
+print('Well ' + myName + ', I have choosen a number between 1 and 20.\nNow You have to guess it.')
 
 #While loop for playing the game until maximum guesses are reached
 
